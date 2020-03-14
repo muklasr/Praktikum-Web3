@@ -1,0 +1,14 @@
+.card{
+  padding: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  width: 200px;
+  box-shadow: 1px 1px 1px #ccc;
+  border: solid 0.5px #ccc;
+  margin: 16px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 18px;
+}
