@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'antd';
-import './App.css';
+import './assets/css/App.css';
 
 const cardData = [
   {

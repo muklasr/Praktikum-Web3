@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/YoutubeComponent.css';
+import './YoutubeComponent.css';
 
 const YoutubeComponent = (props) => {
     return (

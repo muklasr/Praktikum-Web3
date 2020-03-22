@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import YoutubeComponent from '../common/YoutubeComponent';
 import Product from './Product';
 
 class Home extends Component{

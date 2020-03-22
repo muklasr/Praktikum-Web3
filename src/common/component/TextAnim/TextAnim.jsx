@@ -1,6 +1,6 @@
 import React from 'react';
 import Texty from 'rc-texty';
-import '../assets/css/TextAnim.css';
+import './TextAnim.css';
 import TweenOne from 'rc-tween-one';
 import Button from 'antd/lib/button';
 

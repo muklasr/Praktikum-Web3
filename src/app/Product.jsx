@@ -1,8 +1,8 @@
 import React, {Component, Fragment} from 'react';
 import { Carousel, Col, Row, Badge } from 'antd';
 import '../assets/css/Product.css';
-import CardProduct from '../common/CardProduct';
-import TextAnim from '../common/TextAnim';
+import CardProduct from '../common/component/CardProduct';
+import TextAnim from '../common/component/TextAnim/TextAnim';
 
 const foodData = [
     {
