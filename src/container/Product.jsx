@@ -1,7 +1,8 @@
 import React, {Component, Fragment} from 'react';
 import { Carousel, Col, Row, Badge } from 'antd';
-import './Product.css';
-import CardProduct from '../CardProduct/CardProduct';
+import '../assets/css/Product.css';
+import CardProduct from '../common/CardProduct';
+import TextAnim from '../common/TextAnim';
 
 const foodData = [
     {
@@ -79,7 +80,7 @@ class Product extends Component {
             </div>
             <Carousel autoplay>
               <div>
-                <h3>1</h3>
+                <TextAnim />
               </div>
               <div>
                 <h3>2</h3>

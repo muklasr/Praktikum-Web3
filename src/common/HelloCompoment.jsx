@@ -1,5 +1,5 @@
 import React from "react";
-import './HelloComponent.css';
+import '../assets/css/HelloComponent.css';
 
 const HelloComponent = () => {
   //stateless component / functional component

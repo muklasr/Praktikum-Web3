@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import YoutubeComponent from '../../common/YoutubeComponent/YoutubeComponent';
-import Product from '../Product/Product';
+import YoutubeComponent from '../common/YoutubeComponent';
+import Product from './Product';
 
 class Home extends Component{
     render(){
