@@ -1,7 +1,8 @@
 {
   "name": "web3_muklas",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://muklasr.github.io/WEB3B-425973-MUKLAS-REACT",
   "dependencies": {
     "rc-texty": "^0.2.0",
     "rc-tween-one": "^2.6.8",
@@ -9,11 +10,15 @@
     "react-dom": "^16.13.0",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
