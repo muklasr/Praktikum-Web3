@@ -78,7 +78,7 @@ class Product extends Component {
                 </Badge>
               </div>
             </div>
-            <Carousel autoplay>
+            {/* <Carousel autoplay>
               <div>
                 <TextAnim />
               </div>
@@ -91,7 +91,7 @@ class Product extends Component {
               <div>
                 <h3>4</h3>
               </div>
-            </Carousel>
+            </Carousel> */}
               <Row style={{justifyContent:'center'}}>
                 {foodData.map(data => (
                   <Col span={5}>

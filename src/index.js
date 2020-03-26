@@ -1,9 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './assets/css/index.css';
-import Home from './app/Home';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./assets/css/index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <Home />,
-  document.getElementById('root')
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
 );
